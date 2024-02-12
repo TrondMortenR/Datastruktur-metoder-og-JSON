@@ -45,20 +45,23 @@ const peopleArrayWithObjects = [
 //! 1.
 
 /* console.log the array */
-
+console.log(peopleArrayWithObjects)
 //! 1.1:
 
 /* create variables for firstPerson (first person object in the array) and lastPerson (last person object in the array) for peopleArrayWithObjects: */
-
+    const firstPerson = peopleArrayWithObjects(0);
+    const lastPerson = peopleArrayWithObjects[peopleArrayWithObjects.length -1];
 //! 1.2
 
 /* console.log all the objects of the first and last persons using Object.entries. Expected output: 
 (6) [Array(2), Array(2), Array(2), Array(2), Array(2), Array(2)]
 */
+console.log(object.entries(firstPerson));
+console.log(object.entries(lastPerson));
 
 //! 1.3
 /* console.log the hobbies of the first person using Object.entries. Expected output is to be an array with 4 elements */
-
+console.log("hello world")
 //! 1.4
 
 /* Use .map instead of Object.entries to achieve the same result in the console as in 1.3: */
